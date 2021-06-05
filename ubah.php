@@ -56,7 +56,7 @@ if (isset($_POST['ubah'])) {
       <li>
         <label>
           NRP :
-          <input type="text" name="nim" required value="<?= $m['nrp']; ?>">
+          <input type="text" name="nim" required value="<?= $m['nim']; ?>">
         </label>
       </li>
       <li>
