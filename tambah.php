@@ -42,7 +42,7 @@ if (isset($_POST['tambah'])) {
       </li>
       <li>
         <label>
-          NRP :
+          Nim :
           <input type="text" name="nim" required>
         </label>
       </li>
