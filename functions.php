@@ -61,6 +61,7 @@ function ubah($data)
   $email = htmlspecialchars($data['email']);
   $jurusan = htmlspecialchars($data['jurusan']);
   $gambar = htmlspecialchars($data['gambar']);
+  <img src="img" alt="gambar">
 
   $query = "UPDATE mahasiswa SET
               nama = '$nama',
